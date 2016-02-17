@@ -32,6 +32,8 @@ class Book extends \yii\db\ActiveRecord
         ];
     }
 
+    
+
     /**
      * @inheritdoc
      */

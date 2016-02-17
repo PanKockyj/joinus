@@ -25,7 +25,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'book_id',
             'book_name',
-
+            ['class' => 'yii\grid\ActionColumn','template' => '{view}'],
         ],
     ]); ?>
 

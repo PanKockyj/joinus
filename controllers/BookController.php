@@ -26,7 +26,7 @@ class BookController extends Controller
                 'class' => AccessControl::className(),
                 'rules' => [
                     [
-                        'actions' => ['index'],
+                        'actions' => ['index', 'view'],
                         'allow' => true,
                         'roles' => ['@'],
 
@@ -87,6 +87,9 @@ class BookController extends Controller
      * @param integer $id
      * @return mixed
      */
+
+
+
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
