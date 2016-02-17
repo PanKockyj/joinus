@@ -1,5 +1,7 @@
 <?php
 
 return [
-    'adminEmail' => 'admin@example.com',
+    'adminEmail' => 'pan_kockyj@ukr.net',
+    'appName' => 'Пан Коцький',
+	'companyName' => 'Join Us',
 ];

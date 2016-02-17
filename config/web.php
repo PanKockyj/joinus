@@ -38,14 +38,17 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
-        /*
+
+
+        /*робим url "по-людські"*/
+
+        
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'rules' => [
-            ],
+            //'scriptUrl' = '',
         ],
-        */
+        
     ],
     'params' => $params,
 ];
